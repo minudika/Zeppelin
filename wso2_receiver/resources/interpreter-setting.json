@@ -1,0 +1,13 @@
+[
+  {
+    "group": "wso2",
+    "name": "receiver",
+    "className": "org.apache.zeppelin.cep.ReceiverInterpreter",
+    "defaultInterpreter": true,
+    "properties": {},
+    "editor": {
+      "language": "sql",
+      "editOnDblClick": false
+    }
+  }
+]
