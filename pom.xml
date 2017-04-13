@@ -79,6 +79,7 @@
     <module>zeppelin-web</module>
     <module>zeppelin-server</module>
     <module>zeppelin-distribution</module>
+    <module>wso2</module>
   </modules>
 
   <properties>

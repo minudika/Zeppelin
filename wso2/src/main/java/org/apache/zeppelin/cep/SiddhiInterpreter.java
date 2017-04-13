@@ -11,9 +11,9 @@ import org.apache.zeppelin.interpreter.InterpreterResult;
 
 import java.util.Properties;
 
-public class ReceiverInterpreter extends Interpreter {
+public class SiddhiInterpreter extends Interpreter {
 
-    public ReceiverInterpreter(Properties property) {
+    public SiddhiInterpreter(Properties property) {
         super(property);
     }
 
@@ -30,7 +30,10 @@ public class ReceiverInterpreter extends Interpreter {
     @Override
     public InterpreterResult interpret(String st, InterpreterContext context) {
 
-        return new InterpreterResult(InterpreterResult.Code.SUCCESS);
+        int x = 10;
+        System.out.println(st);
+
+        return new InterpreterResult(InterpreterResult.Code.INCOMPLETE, InterpreterResult.Type.HTML,st);
     }
 
     @Override
@@ -40,7 +43,7 @@ public class ReceiverInterpreter extends Interpreter {
 
     @Override
     public FormType getFormType() {
-        return FormType.NATIVE;
+        return FormType.SIMPLE;
     }
 
     @Override

@@ -36,3 +36,4 @@ pig             org.apache.zeppelin:zeppelin-pig:0.7.0                  Pig inte
 python          org.apache.zeppelin:zeppelin-python:0.7.0               Python interpreter
 scio            org.apache.zeppelin:zeppelin-scio_2.11:0.7.0            Scio interpreter
 shell           org.apache.zeppelin:zeppelin-shell:0.7.0                Shell command
+receiver	org.apache.zeppelin:wso2-receiver-interpreter:0.8.0-SNAPSHOT	WSO2 Receiver Interpreter
